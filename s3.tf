@@ -3,6 +3,6 @@ resource "aws_s3_bucket" "atlantis-tf-bucket" {
 
   tags = {
     Name        = "atlantis-tf"
-    Environment = "Dev"
+    Environment = "Development"
   }
 }
