@@ -10,7 +10,4 @@ terraform {
 # Configure the AWS Provider
 provider "aws" {
   region = "ap-south-1"
-  assume_role {
-    role_arn = "arn:aws:iam::301838289846:role/atlantis_tf_role"
-  }
 }

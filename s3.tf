@@ -9,3 +9,6 @@
 resource "aws_secretsmanager_secret" "terraform_test" {
   name = "terraform_test"
 }
+resource "aws_secretsmanager_secret" "terraform_test1" {
+  name = "terraform_test1"
+}
