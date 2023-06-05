@@ -7,12 +7,5 @@
 #   }
 # }
 resource "aws_secretsmanager_secret" "terraform_test" {
-  name = "terraform_test"
+  name = "terraform_test_v3"
 }
-resource "aws_secretsmanager_secret" "terraform_test1" {
-  name = "terraform_test1"
-}
-resource "aws_secretsmanager_secret" "terraform_test_ecs" {
-  name = "terraform_test1"
-}
-
